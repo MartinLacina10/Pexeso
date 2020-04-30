@@ -1,0 +1,95 @@
+.col-md-3 {
+	padding: 50px auto;
+}
+
+.col-md-6 {
+	padding: 50px auto;
+}
+
+#gameboard {
+    margin-top: 20px;
+}
+
+table {
+    margin: 0px auto;
+}
+
+.status {
+    margin: 15px;
+}
+
+#btn {
+    width: 250px;
+    height: 50px;
+    margin: 0px auto;
+    background-color: #46595c;
+    color: aliceblue;
+    font-size: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#btn:hover {
+    color: #c4d3d6;
+}
+
+#toggle {
+    margin: 0px auto;
+}
+
+#restartGame {
+    font-family: fantasy;
+    margin: 10px auto;
+    padding: 10px auto;
+}
+
+#btn_menu {
+    font-family: fantasy;
+    margin: 0px auto;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: #7b979c;
+}
+
+#btnRestart:hover, #btnCancel:hover {
+    color: #46595c;
+    cursor: pointer;
+}
+
+#body {
+    background: linear-gradient(160deg, #FF0000 0%, #0000FF 100%);
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+	cursor: pointer;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.card:hover {
+    opacity: 0.7;
+}
+
+#player2 {
+    font-family: fantasy;
+    color: aliceblue;
+    font-size: 35px;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 25px;
+}
+
+#player1 {
+    font-family: fantasy;
+    color: aliceblue;
+    font-size: 35px;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 25px;
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pexeso</title>
+    <link type="text/css" href="CSS.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="JS.js" href="script/JS.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
+
+  <body id="body" class="row">
+      <div id="player1" class="col-3 text-left">
+          <div class="playersname status">Hrac 1</div>
+          <div class="score status" id="score1">Body : 0</div>
+          <div><table id="tableP1"></table></div>
+      </div>
+            
+      <div id="gameboard" class="col-6 cards">
+        <table width="640px">
+            <tr>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img00" onclick="Obrazek(00)"> </td>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img01" onclick="Obrazek(01)"> </td>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img02" onclick="Obrazek(02)"> </td>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img03" onclick="Obrazek(03)"> </td>
+            </tr>  
+            <tr>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img10" onclick="Obrazek(10)"> </td>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img11" onclick="Obrazek(11)"> </td>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img12" onclick="Obrazek(12)"> </td>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img13" onclick="Obrazek(13)"> </td>
+            </tr>
+            <tr>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img20" onclick="Obrazek(20)"> </td>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img21" onclick="Obrazek(21)"> </td>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img22" onclick="Obrazek(22)"> </td>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img23" onclick="Obrazek(23)"> </td>
+            </tr>
+            <tr>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img30" onclick="Obrazek(30)"> </td>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img31" onclick="Obrazek(31)"> </td>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img32" onclick="Obrazek(32)"> </td>
+                <td> <img src="img/pexeso_logo.png" class="card" id="img33" onclick="Obrazek(33)"> </td>
+            </tr>
+        </table>
+      </div> 
+      
+      <div id="player2" class="col-3  text-right">
+          <div class="playersname status">Hrac 2</div>
+          <div class="score status" id="score2">Body : 0</div>
+          <div><table id="tableP2"></table></div>
+      </div>
+      
+      <div id="restartGame" class="col-2 justify-content-center">          
+            <div id="btn">Nová hra</div>
+            <div id="btn_menu">
+              <div id="btnRestart">Znovu</div>
+               <div id="btnCancel">Zrušit</div>
+            </div>
+      </div>
+
+	  <div id="visited" class="col-12 text-right" onload=""></div>
+  </body>
+</html>
